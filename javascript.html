@@ -16,11 +16,12 @@ li a {
 }
 ul {
   list-style-type: none;
-width : 300px;
+width : 350px;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: blue;
+text-align : center;
 opacity: 0.7;
 border-radius : 30px;
 margin-left : auto;
@@ -28,6 +29,9 @@ margin-right : auto;
 }
 li a:hover {
   background-color: darkblue;
+}
+ol>li a:hover {
+  background-color: darkgreen;
 }
 li {
 float :left;
@@ -41,6 +45,26 @@ text-align : center;
 border : 2px solid black;
 border-radius : 30px
 
+}
+ol {
+  list-style-type: none;
+width : 130px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: green;
+text-align : center;
+opacity: 0.7;
+border-radius : 30px;
+margin-left : auto;
+margin-right : auto;
+margin-top : 30px;
+}
+
+ol>li a{
+float:top;
+text-align : center;
+width : 130px;
 }
 .mouse {
 color : white;
@@ -99,6 +123,7 @@ input. JavaScript helps create dynamic content such as animations, interactive f
  making the web experience more engaging and user-friendly.
 </pre></div>
 <div>
+<h2>table</h2>
 <table style="width: 100%">
 <tr>
 <th>javascript</th>
@@ -117,11 +142,19 @@ input. JavaScript helps create dynamic content such as animations, interactive f
 </tr>
 </table>
 </div>
+<h2 style="background-color : green;opacity:0.7">unordered list</h2>
 <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li><a href="#home">HTML</a></li>
+  <li><a href="#news">CSS</a></li>
+  <li><a ="https://www.google.com/search?q=wikipediajavascript&sca_esv=e948bafec9f39f8c&ei=XKWIaPPFAeaSseMP3PSSoQo&ved=0ahUKEwjz473p8OGOAxVmSWwGHVy6JKQQ4dUDCBA&uact=5&oq=wikipediajavascript&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3dpa2lwZWRpYWphdmFzY3JpcHQyBxAAGIAEGA0yBhAAGA0YHjIGEAAYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHjIIEAAYCBgNGB4yCBAAGAgYDRgeMggQABgIGA0YHkjzEVCzBViOEXABeAGQAQCYAWugAc8HqgEDNy4zuAEDyAEA-AEBmAILoALCCMICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIQEAAYgAQYsQMYQxjJAxiKBcICBxAAGIAEGArCAgoQABiABBixAxgKwgILEAAYgAQYkgMYigXCAgoQABiABBixAxgNwgIIEAAYChgNGB6YAwCIBgGQBgqSBwMyLjmgB45CsgcDMS45uAe3CMIHBjItMS4xMMgHZw&sclient=gws-wiz-serp">JAVASCRIPT</a></li>
+  <li><a href="#about">AJAX</a></li>
 </ul>
+<h2 style="background-color : blue;opacity:0.7">ordered list</h2>
+<ol>
+<li><a herf="">HTML</a></li>
+<li><a herf="">CSS</a></li>
+<li><a herf="">JAVASCRIPT</a></li>
+<li><a herf="">AJAX</a></li>
+</ol>
 </body>
 </html>
